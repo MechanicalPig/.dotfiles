@@ -1,0 +1,60 @@
+[
+  {
+    title: "Cookiecutter Node Rest Express"
+    group: "cookiecutter"
+    paths: [
+      "/Users/matteoavellina/Developer/personal/cookiecutter-node-rest-express"
+    ]
+  }
+  {
+    title: "Notifications Service"
+    group: "igenius.allianz"
+    paths: [
+      "/Users/matteoavellina/Developer/igenius/allianz/notifications-service"
+    ]
+  }
+  {
+    title: "Ledgers"
+    group: "personal"
+    paths: [
+      "/Users/matteoavellina/Documents/finance/ledgers"
+    ]
+  }
+  {
+    title: "Profile Service"
+    group: "igenius.allianz"
+    paths: [
+      "/Users/matteoavellina/Developer/igenius/allianz/profile-service"
+    ]
+  }
+  {
+    title: "Compose"
+    group: "igenius.allianz"
+    paths: [
+      "/Users/matteoavellina/Developer/igenius/allianz/compose"
+    ]
+  }
+  {
+    title: "management"
+    group: "igenius"
+    paths: [
+      "/Users/matteoavellina/Management/igenius"
+    ]
+  }
+  {
+    title: "Identity Provider"
+    group: "igenius.crystal"
+    paths: [
+      "/Users/matteoavellina/Developer/igenius/crystal/identity-provider"
+    ]
+    color: "violet"
+  }
+  {
+    title: "Compose"
+    group: "igenius.isp"
+    paths: [
+      "/Users/matteoavellina/Developer/igenius/intesa-san-paolo/compose"
+    ]
+    color: "orange"
+  }
+]

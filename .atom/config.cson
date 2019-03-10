@@ -1,0 +1,21 @@
+"*":
+  core:
+    customFileTypes:
+      "source.ledger": [
+        "journal"
+      ]
+    restorePreviousWindowsOnStart: "no"
+    telemetryConsent: "limited"
+  editor:
+    fontSize: 17
+  "exception-reporting":
+    userId: "bc2fc0c8-1a75-4a19-9838-f032f5382d8d"
+  "git-blame":
+    columnWidth: 256
+  "language-ledger":
+    ledgerBinary: "hledger"
+  "package-sync":
+    createOnChange: true
+    forceOverwrite: true
+  welcome:
+    showOnStartup: false
