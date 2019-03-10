@@ -60,10 +60,6 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
-# pyenv initialization
-eval "$(pyenv init -)"
-eval "$(pyenv virtualenv-init -)"
-
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
@@ -92,8 +88,7 @@ fi
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias zshconfig="atom ~/.zshrc"
 alias ohmyzsh="atom ~/.oh-my-zsh"
-alias pa="pyenv activate"
-alias pd="pyenv deactivate"
+
 
 # show only current directory name instead of full path
 prompt_dir () {
@@ -101,8 +96,14 @@ prompt_dir () {
 }
 
 # NVM
-export NVM_DIR="$HOME/.nvm"
-. "/usr/local/opt/nvm/nvm.sh"
+# export NVM_DIR="$HOME/.nvm"
+# . "/usr/local/opt/nvm/nvm.sh"
 
 # POETRY
 export PATH="$HOME/.poetry/bin:$PATH"
+
+# PYENV
+# eval "$(pyenv init -)"
+# eval "$(pyenv virtualenv-init -)"
+# alias pa="pyenv activate"
+# alias pd="pyenv deactivate"
