@@ -5,6 +5,3 @@
     email = avellina@igenius.net
 [rebase]
     autosquash = true
-[remote "origin"]
-  fetch = +refs/heads/*:refs/remotes/origin/*
-  fetch = +refs/tags/*:refs/tags/*
