@@ -95,6 +95,9 @@ prompt_dir () {
   prompt_segment blue black '%1~'
 }
 
+# add Homebrew packages to PATH
+export PATH="/usr/local/bin:$PATH"
+
 # NVM
 export NVM_DIR="$HOME/.nvm"
 [ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"  # This loads nvm
