@@ -67,4 +67,12 @@
     ]
     color: "green"
   }
+  {
+    title: "Start Me Up"
+    group: "personal"
+    paths: [
+      "/Users/matteoavellina/Developer/personal/start-me-up"
+    ]
+    color: "green"
+  }
 ]
