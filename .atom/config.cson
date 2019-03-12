@@ -7,7 +7,9 @@
     restorePreviousWindowsOnStart: "no"
     telemetryConsent: "limited"
   editor:
-    fontSize: 17
+    confirmCheckoutHeadRevision: false
+    fontFamily: "Iosevka SS08, Menlo, Consolas, DejaVu Sans Mono, monospace"
+    fontSize: 18
   "exception-reporting":
     userId: "bc2fc0c8-1a75-4a19-9838-f032f5382d8d"
   "git-blame":
