@@ -18,7 +18,7 @@
     title: "Ledgers"
     group: "personal"
     paths: [
-      "/Users/matteoavellina/Documents/personal/ledgers"
+      "/Users/matteoavellina/Developer/personal/ledgers"
     ]
     color: "green"
   }
