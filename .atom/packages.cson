@@ -6,7 +6,6 @@ packages: [
   "language-docker"
   "language-ledger"
   "language-nginx"
-  "language-terraform"
   "linter"
   "linter-docker"
   "linter-eslint"
