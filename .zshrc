@@ -95,18 +95,18 @@ prompt_dir () {
   prompt_segment blue black '%1~'
 }
 
-# add Homebrew packages to PATH
+# homebrew
 export PATH="/usr/local/bin:$PATH"
 
 # libpq
 export PATH="/usr/local/opt/libpq/bin:$PATH"
 
-# NVM
+# nvm
 export NVM_DIR="$HOME/.nvm"
 [ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"  # This loads nvm
 [ -s "/usr/local/opt/nvm/etc/bash_completion" ] && . "/usr/local/opt/nvm/etc/bash_completion"  # This loads nvm bash_completion
 
-# POETRY
+# poetry
 export PATH="$HOME/.poetry/bin:$PATH"
 
 # PYENV
