@@ -98,6 +98,9 @@ prompt_dir () {
 # add Homebrew packages to PATH
 export PATH="/usr/local/bin:$PATH"
 
+# libpq
+export PATH="/usr/local/opt/libpq/bin:$PATH"
+
 # NVM
 export NVM_DIR="$HOME/.nvm"
 [ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"  # This loads nvm
