@@ -24,3 +24,7 @@ export PATH="$HOME/.poetry/bin:$PATH"
 # eval "$(pyenv virtualenv-init -)"
 # alias pa="pyenv activate"
 # alias pd="pyenv deactivate"
+
+# enable iTerm2 shell integration
+ITERM2_SHELL_INTEGRATION_SCRIPT="~/.iterm2_shell_integration.zsh"
+[ -s $ITERM2_SHELL_INTEGRATION_SCRIPT ] && . $ITERM2_SHELL_INTEGRATION_SCRIPT
