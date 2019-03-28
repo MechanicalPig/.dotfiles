@@ -19,11 +19,11 @@ export NVM_DIR="$HOME/.nvm"
 # poetry
 export PATH="$HOME/.poetry/bin:$PATH"
 
-# PYENV
-# eval "$(pyenv init -)"
-# eval "$(pyenv virtualenv-init -)"
-# alias pa="pyenv activate"
-# alias pd="pyenv deactivate"
+# pyenv
+command -v pyenv && eval "$(pyenv init -)"
+command -v pyenv-virtualenv && eval "$(pyenv virtualenv-init -)"
+alias pa="pyenv activate"
+alias pd="pyenv deactivate"
 
 # enable iTerm2 shell integration
 ITERM2_SHELL_INTEGRATION_SCRIPT="~/.iterm2_shell_integration.zsh"
