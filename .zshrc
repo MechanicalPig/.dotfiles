@@ -25,6 +25,11 @@ command -v pyenv-virtualenv && eval "$(pyenv virtualenv-init -)"
 alias pa="pyenv activate"
 alias pd="pyenv deactivate"
 
+# sqlite
+export PATH="/usr/local/opt/sqlite/bin:$PATH"
+export LDFLAGS="-L/usr/local/opt/sqlite/lib"
+export CPPFLAGS="-I/usr/local/opt/sqlite/include"
+
 # zlib
 export LDFLAGS="-L/usr/local/opt/zlib/lib"
 export CPPFLAGS="-I/usr/local/opt/zlib/include"
