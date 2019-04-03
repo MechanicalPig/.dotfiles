@@ -37,3 +37,7 @@ export CPPFLAGS="-I/usr/local/opt/zlib/include"
 # enable iTerm2 shell integration
 ITERM2_SHELL_INTEGRATION_SCRIPT="~/.iterm2_shell_integration.zsh"
 [ -s $ITERM2_SHELL_INTEGRATION_SCRIPT ] && . $ITERM2_SHELL_INTEGRATION_SCRIPT
+
+# zplug
+export ZPLUG_HOME=/usr/local/opt/zplug
+[ -s $ZPLUG_HOME/init.zsh ] && source $ZPLUG_HOME/init.zsh
