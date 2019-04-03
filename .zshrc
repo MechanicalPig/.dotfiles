@@ -40,4 +40,21 @@ ITERM2_SHELL_INTEGRATION_SCRIPT="~/.iterm2_shell_integration.zsh"
 
 # zplug
 export ZPLUG_HOME=/usr/local/opt/zplug
-[ -s $ZPLUG_HOME/init.zsh ] && source $ZPLUG_HOME/init.zsh
+if [[ -s $ZPLUG_HOME/init.zsh ]]; then
+  source $ZPLUG_HOME/init.zsh
+
+  # self update
+  zplug 'zplug/zplug', hook-build:'zplug --self-manage'
+  zplug "subnixr/minimal", from:github, as:theme, use:minimal.zsh
+
+  # Install plugins if there are plugins that have not been installed
+  if ! zplug check --verbose; then
+    printf "Install? [y/N]: "
+    if read -q; then
+      echo; zplug install
+    fi
+  fi
+
+  # Then, source plugins and add commands to $PATH
+  zplug load --verbose
+fi
