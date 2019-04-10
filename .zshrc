@@ -45,6 +45,7 @@ if [[ -s $ZPLUG_HOME/init.zsh ]]; then
 
   # self update
   zplug "zplug/zplug", hook-build:"zplug --self-manage"
+  zplug "plugins/aws", from:oh-my-zsh
   zplug "plugins/git", from:oh-my-zsh
   zplug "subnixr/minimal", from:github, as:theme, use:minimal.zsh
 
