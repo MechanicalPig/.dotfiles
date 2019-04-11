@@ -47,6 +47,7 @@ if [[ -s $ZPLUG_HOME/init.zsh ]]; then
   zplug "zplug/zplug", hook-build:"zplug --self-manage"
   zplug "plugins/aws", from:oh-my-zsh
   zplug "hschne/fzf-git"
+  zplug "atweiden/fzf-extras", as:command
   zplug "andrewferrier/fzf-z"
   zplug "plugins/git", from:oh-my-zsh
   zplug "plugins/z", from:oh-my-zsh
