@@ -1,4 +1,5 @@
 packages: [
+  "atom-html-preview"
   "atom-inline-blame"
   "busy-signal"
   "file-icons"
@@ -12,6 +13,7 @@ packages: [
   "linter-flake8"
   "linter-ui-default"
   "markdown-pdf"
+  "open-in-browsers"
   "package-sync"
   "platformio-ide-terminal"
   "project-manager"
