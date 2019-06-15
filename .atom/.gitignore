@@ -5,6 +5,4 @@ packages
 projects.cson
 recovery
 storage
-.apm
-.node-gyp
-.npm
+.*
