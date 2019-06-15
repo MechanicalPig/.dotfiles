@@ -16,6 +16,8 @@
     columnWidth: 256
   "language-ledger":
     ledgerBinary: "hledger"
+  "linter-flake8":
+    executablePath: "$PROJECT/.venv/bin/flake8;/usr/bin/flake8"
   "package-sync":
     createOnChange: true
     forceOverwrite: true
