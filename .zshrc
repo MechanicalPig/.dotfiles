@@ -51,6 +51,7 @@ if [[ -s $ZPLUG_HOME/init.zsh ]]; then
   zplug "andrewferrier/fzf-z"
   zplug "plugins/git", from:oh-my-zsh
   zplug "plugins/z", from:oh-my-zsh
+  zplug "spacchetti/spago", from:gh-r, as:command
   zplug "subnixr/minimal", from:github, as:theme, use:minimal.zsh
 
   # Install plugins if there are plugins that have not been installed
