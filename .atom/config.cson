@@ -4,6 +4,9 @@
       "source.ledger": [
         "journal"
       ]
+    disabledPackages: [
+      "linter"
+    ]
     restorePreviousWindowsOnStart: "no"
     telemetryConsent: "limited"
   editor:
