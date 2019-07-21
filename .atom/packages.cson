@@ -4,6 +4,7 @@ packages: [
   "busy-signal"
   "file-icons"
   "intentions"
+  "language-babel"
   "language-docker"
   "language-ledger"
   "language-nginx"
