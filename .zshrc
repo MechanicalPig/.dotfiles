@@ -41,31 +41,3 @@ export CPPFLAGS="-I/usr/local/opt/openssl/include"
 # enable iTerm2 shell integration
 ITERM2_SHELL_INTEGRATION_SCRIPT="~/.iterm2_shell_integration.zsh"
 [ -s $ITERM2_SHELL_INTEGRATION_SCRIPT ] && . $ITERM2_SHELL_INTEGRATION_SCRIPT
-
-# zplug
-export ZPLUG_HOME=/usr/local/opt/zplug
-if [[ -s $ZPLUG_HOME/init.zsh ]]; then
-  source $ZPLUG_HOME/init.zsh
-
-  # self update
-  zplug "zplug/zplug", hook-build:"zplug --self-manage"
-  zplug "plugins/aws", from:oh-my-zsh
-  zplug "hschne/fzf-git"
-  zplug "atweiden/fzf-extras", as:command
-  zplug "andrewferrier/fzf-z"
-  zplug "plugins/git", from:oh-my-zsh
-  zplug "plugins/z", from:oh-my-zsh
-  zplug "spacchetti/spago", from:gh-r, as:command
-  zplug "subnixr/minimal", from:github, as:theme, use:minimal.zsh
-
-  # Install plugins if there are plugins that have not been installed
-  if ! zplug check --verbose; then
-    printf "Install? [y/N]: "
-    if read -q; then
-      echo; zplug install
-    fi
-  fi
-
-  # Then, source plugins and add commands to $PATH
-  zplug load --verbose
-fi
