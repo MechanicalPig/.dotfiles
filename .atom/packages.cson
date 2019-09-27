@@ -2,6 +2,7 @@ packages: [
   "atom-html-preview"
   "atom-inline-blame"
   "busy-signal"
+  "color-picker"
   "file-icons"
   "intentions"
   "language-babel"
