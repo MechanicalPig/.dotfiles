@@ -10,6 +10,7 @@ packages: [
   "language-ledger"
   "language-nginx"
   "language-purescript"
+  "language-rego"
   "linter"
   "linter-docker"
   "linter-eslint"
