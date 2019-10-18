@@ -2,6 +2,6 @@
     editor = 'atom' --wait
 [user]
     name = matteoavellina
-    email = avellina@igenius.net
+    email = matteo.avellina@igenius.ai
 [rebase]
     autosquash = true
