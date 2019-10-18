@@ -14,12 +14,21 @@
     userId: "bc2fc0c8-1a75-4a19-9838-f032f5382d8d"
   "git-blame":
     columnWidth: 256
+  "language-babel":
+    autoIndentJSX: true
   "language-ledger":
     ledgerBinary: "hledger"
   "linter-flake8":
     executablePath: "$PROJECT/.venv/bin/flake8;/usr/bin/flake8"
+  "linter-ui-default": {}
   "package-sync":
     createOnChange: true
     forceOverwrite: true
+  "platformio-ide-terminal":
+    core: {}
+  "tree-view": {}
   welcome:
     showOnStartup: false
+".coffee.jsx.source":
+  editor:
+    autoIndent: true
