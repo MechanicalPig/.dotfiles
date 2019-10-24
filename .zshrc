@@ -11,6 +11,9 @@ export PATH="/usr/local/bin:$PATH"
 # libpq
 export PATH="/usr/local/opt/libpq/bin:$PATH"
 
+# nix
+. /Users/matteoavellina/.nix-profile/etc/profile.d/nix.sh
+
 # nvm
 export NVM_DIR="$HOME/.nvm"
 [ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"  # This loads nvm

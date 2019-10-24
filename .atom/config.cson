@@ -20,13 +20,15 @@
     ledgerBinary: "hledger"
   "linter-flake8":
     executablePath: "$PROJECT/.venv/bin/flake8;/usr/bin/flake8"
-  "linter-ui-default": {}
+  "linter-ui-default":
+    showPanel: true
   "package-sync":
     createOnChange: true
     forceOverwrite: true
   "platformio-ide-terminal":
     core: {}
-  "tree-view": {}
+  "tree-view":
+    hideVcsIgnoredFiles: true
   welcome:
     showOnStartup: false
 ".coffee.jsx.source":
