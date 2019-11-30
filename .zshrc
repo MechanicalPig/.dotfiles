@@ -44,3 +44,9 @@ export CPPFLAGS="-I/usr/local/opt/openssl/include"
 # enable iTerm2 shell integration
 ITERM2_SHELL_INTEGRATION_SCRIPT="~/.iterm2_shell_integration.zsh"
 [ -s $ITERM2_SHELL_INTEGRATION_SCRIPT ] && . $ITERM2_SHELL_INTEGRATION_SCRIPT
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/Users/matteoavellina/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/matteoavellina/google-cloud-sdk/path.zsh.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/Users/matteoavellina/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/matteoavellina/google-cloud-sdk/completion.zsh.inc'; fi
