@@ -20,8 +20,7 @@
     ledgerBinary: "hledger"
   "linter-flake8":
     executablePath: "$PROJECT/.venv/bin/flake8;/usr/bin/flake8"
-  "linter-ui-default":
-    showPanel: true
+  "linter-ui-default": {}
   "package-sync":
     createOnChange: true
     forceOverwrite: true
