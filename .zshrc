@@ -8,6 +8,9 @@ fi
 # homebrew
 export PATH="/usr/local/bin:$PATH"
 
+# hlint
+export PATH="$HOME/.local/bin:$PATH"
+
 # libpq
 export PATH="/usr/local/opt/libpq/bin:$PATH"
 
