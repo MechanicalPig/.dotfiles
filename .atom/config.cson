@@ -27,8 +27,7 @@
     forceOverwrite: true
   "platformio-ide-terminal":
     core: {}
-  "tree-view":
-    hideVcsIgnoredFiles: true
+  "tree-view": {}
   welcome:
     showOnStartup: false
 ".coffee.jsx.source":
