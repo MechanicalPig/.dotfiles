@@ -28,6 +28,7 @@ packages: [
   "linter-flake8"
   "linter-ui-default"
   "markdown-pdf"
+  "nix"
   "open-in-browsers"
   "package-sync"
   "platformio-ide-terminal"
